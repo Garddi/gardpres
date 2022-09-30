@@ -1,0 +1,71 @@
+---
+title: "Min Presentasjon"
+author: "Your Name"
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: gardstyle.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: zoom
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: gardstyle.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Plan for i dag
+
+- Gjennomgå oppgaven
+  - Tilbakemelding
+  - Løsningsforslag
+  - Litt nærmere om [[DAGENS TEMA]]
+- Åpen spørretid
+- Pause
+- Gruppeaktivitet
+
+# Temaet for i dag er [[DAGENS TEMA]]
+
+# Kvalifiseringsoppgaven
+
+- Oppgaven her
+
+# Generell tilbakemelding
+
+- Hva var bra?
+
+- Hva var dårlig?
+
+## Generell tilbakemelding
+
+- Hva kunne vært enda bedre?
+
+# Løsningsforslag
+
+- Hva var det rette svaret?
+
+- Alle elementene som må med. 
+
+## Løsningsforslag
+
+- Enda flere momenter som bør være med
+
+# Litt nærmere om [[TEMA]]
+
+- Si noe mer.
+
+# Åpen spørretid
+
+- Noe dere har møtt på den siste uken som dere lurer på?
+
+# Gruppediskusjon
+
+- Aktiviteten går her. 
+
+# Neste kvalifiseringsoppgave

@@ -1,0 +1,11 @@
+Package: gardpres
+Type: Package
+Title: Presentasjons maler
+Version: 0.1.0
+Author: Gard 
+Maintainer: gardietr@gmail.com
+Description: Inneholder maler til bruk i seminarleder aktiviteter ved ISV
+    Mye prøving og feiling, feedback settes pris på
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
