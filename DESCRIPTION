@@ -6,6 +6,6 @@ Author: Gard Olav Dietrichson [aut, cre]
 Maintainer: Gard Olav Dietrichson <gardietr@gmail.com>
 Description: Inneholder maler til bruk i seminarleder aktiviteter ved ISV
     Mye prøving og feiling, feedback settes pris på
-License: GPL-2
+License: LGPL (>= 2.0, < 3) | Mozilla Public License
 Encoding: UTF-8
 LazyData: true
