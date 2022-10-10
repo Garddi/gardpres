@@ -1,18 +1,34 @@
 ---
-title: "Template Title"
+title: "Min Presentasjon"
 author: "Your Name"
-date: "The Date"
-output: output_format
+date: '`r format(Sys.time(), "%d-%m-%Y")`'
+output:
+  revealjs::revealjs_presentation:
+    css: gardstyle.css
+    highlight: breezedark
+    center: true
+    code_folding: show
+    transition: zoom
+    self_contained: false
+    reveal_plugins: ["chalkboard", "notes"]
+    reveal_options:
+      slideNumber: true
+css: gardstyle.css
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Adding an RMarkdown Template
+## Velkommen til revealjs magi
 
-This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
+- En format som man mater r-markdown dokumenter gjennom
+- Produserer fancy presentasjoner på andre siden
+- Støtter alle fancy ting man kan forvente
+  - html elementer, tilpasset css, grafer og alt liknende man forventer fra r-markdown. 
+- Kan også bruke revealjs syntax til å drive med fancy ting
 
-This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
+## Hvordan lage presentasjon?
 
-Finally, be sure to remove this message!
+- Lag et rmarkdown dokument, og spesifiser yaml settings deretter. En full guide finnes <https://github.com/rstudio/revealjs> 
+- Men denne pakken gir en liten unik theme, tilpasset UiO (takket være liten logo)
